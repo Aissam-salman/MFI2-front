@@ -1,6 +1,6 @@
 import {RegisterRequest} from "@/dto/RegisterRequest.ts";
-import {API} from "../../../api/endpoint.ts";
 import {AuthRequest} from "@/dto/AuthRequest.ts";
+import {API} from "@/api/endpoint.ts";
 
 class UserDataService {
     register(req: RegisterRequest) {

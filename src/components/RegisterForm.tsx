@@ -74,7 +74,7 @@ export function RegisterForm() {
                         <code className="text-white">{JSON.stringify(data, null, 2)}</code>
                     </pre>
                 ),
-                action: <ToastAction onClick={redirect("/register")} altText="Try again">Try again</ToastAction>,
+                action: <ToastAction onClick={() => redirect("/register")} altText="Try again">Try again</ToastAction>,
             });
         }
 
