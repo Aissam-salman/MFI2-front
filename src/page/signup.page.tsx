@@ -2,7 +2,6 @@ import {NavBarComponent} from "@/components/NavBar.component.tsx";
 import {RegisterForm} from "@/components/RegisterForm.tsx";
 
 const SignupPage = () => {
-
     return (
         <>
             <NavBarComponent/>
