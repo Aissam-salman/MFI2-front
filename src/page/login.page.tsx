@@ -1,4 +1,3 @@
-import {Button} from "@/components/ui/button.tsx";
 import {NavBarComponent} from "@/components/NavBar.component.tsx";
 
 const LoginPage = () => {
@@ -6,7 +5,7 @@ const LoginPage = () => {
         <>
             <NavBarComponent/>
             <main className="p-8">
-                <Button>Connexion</Button>
+                <LoginPage/>
             </main>
         </>
     )

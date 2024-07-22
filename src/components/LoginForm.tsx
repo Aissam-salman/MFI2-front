@@ -127,7 +127,7 @@ export function RegisterForm() {
                         </FormItem>
                     )}
                 />
-                <Button type="submit">Submit</Button>
+                <Button type="submit">Connexion</Button>
             </form>
         </Form>
     );
