@@ -4,11 +4,15 @@ import {API} from "@/api/endpoint.ts";
 
 class UserDataService {
     register(req: RegisterRequest) {
-        return API.post("/auth/signup", req)
+        return API.post("/auth/signup", req);
     }
 
     login(req: AuthRequest) {
-        return API.post("/auth/login", req)
+        return API.post("/auth/login", req);
+    }
+
+    all() {
+        return API.get("/users");
     }
 
 }

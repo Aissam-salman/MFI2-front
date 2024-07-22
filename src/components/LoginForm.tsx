@@ -50,8 +50,8 @@ export function LoginForm() {
                     </div>
                 )
             });
-            const token = json.getTokens();
-            console.log(token);
+            const token = json.token;
+            localStorage.setItem("authToken", token);
         } catch (err) {
             console.log(err);
             toast({

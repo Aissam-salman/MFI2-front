@@ -8,5 +8,9 @@ export type RegisterRequest = {
 }
 
 export enum Role {
-    CLIENT,ADMIN,PRODUCER
+    CLIENT, ADMIN, PRODUCER
 }
+
+export const getRoleString = (roleNumber: Role): string => {
+    return Role[roleNumber];
+};

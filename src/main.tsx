@@ -6,6 +6,7 @@ import App from "@/App.tsx";
 import SignupPage from "@/page/signup.page.tsx";
 import LoginPage from "@/page/login.page.tsx";
 import {Toaster} from "@/components/ui/toaster.tsx";
+import UsersPage from './page/users.page';
 
 const route = createBrowserRouter(
     [
@@ -20,6 +21,10 @@ const route = createBrowserRouter(
         {
             path: "/login",
             element: <LoginPage/>
+        },
+        {
+            path: "/users",
+            element: <UsersPage/>
         }
     ]
 )
