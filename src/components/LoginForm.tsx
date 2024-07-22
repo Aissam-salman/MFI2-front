@@ -27,7 +27,7 @@ const formSchema = z.object({
     role: z.nativeEnum(Role),
 });
 
-export function RegisterForm() {
+export function LoginForm() {
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
         defaultValues: {
